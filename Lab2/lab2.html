@@ -1,0 +1,82 @@
+<div data-role="page" id="page1">
+
+     <div data-role="header">
+          <h1 font='funky'>KC RADIO</h1>
+     </div>
+
+     <div data-role="content">     
+          <p><a href="#KC Concerts and Events" data-role="button"> KC Concerts and Events</a></p>
+	  <p><a href="#FM" data-role="button">FM</a></p> 
+<p><a href="#Page3" data-role="button">KC Weather</a></p>   	
+	          
+          <p><a href="#Page4" data-role="button">Location</a></p>  
+ 	               
+     </div>
+     
+  
+     
+</div>
+
+<div data-role="page" id="KC Concerts and Events">
+
+     <div data-role="header">
+     	  <a data-rel="back" data-icon="home">Home</a>
+          <h1>KC Concerts and Events</h1>
+     </div>
+
+     <div data-role="content">     
+          <p>Button Event Sample</p>
+         <iframe src="http://kcliveandlocal.com/kc-radio/Concert_Calendar.html" height="850" width="600"> </iframe>
+     </div>
+     
+     
+     
+</div>
+
+
+
+<div data-role="page" id="FM">
+
+
+
+
+
+     <div align="center" data-role="header">
+
+     	  <a data-rel="back" data-icon="home">Home</a>
+          <h1>FM</h1>
+     </div> <br><br>
+<center>
+<iframe src="http://www.partyviberadio.com/player/embed-auto-cassette/reggae.html" style="border:0px #FFFFFF none;" name="embed-cassette" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="140px" width="200px">
+</iframe>
+</center>
+    
+   <br><br>
+       <iframe width="640" height="360" src="//www.youtube.com/embed/GZQJrM09jbU?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
+       
+       </div>    
+       <div data-role="page" id="Page3">
+
+     <div align="center" data-role="header">
+
+     	  <a data-rel="back" data-icon="home">Home</a>
+          <h1>Weather</h1>
+         <div id="weather"></div>
+     </div> 
+</div>
+     
+
+<div data-role="page" id="Page4">
+
+     <div data-role="header" >
+     	  <a data-rel="back" data-icon="home">Home</a>
+          <h1>Get Directions</h1>
+     </div>
+    <p id="demo">Click the button to get your coordinates:</p>
+<button onclick="getLocation()">Try It</button>
+<div id="map-canvas"></div>
+    
+     
+     
+     
+</div>
